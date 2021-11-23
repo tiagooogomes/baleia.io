@@ -66,7 +66,7 @@ function eu(){
 function texto(){
 
     let texto = document.querySelector("#eu p")
-    texto.innerHTML = "Olá, meu nome é Tiago Santos de Jesus, tenho 20 anos e sou da Bahia. As baleias são animais muito innterrantes e sempre tenho curiosidade para saber mais sobre elas. "
+    texto.innerHTML = "Olá, meu nome é Tiago Santos de Jesus, tenho 20 anos e sou da Bahia. As baleias são animais muito interrantes e sempre tenho curiosidade para saber mais sobre elas. "
     texto.appendChild(texto)
 }
 
@@ -76,6 +76,73 @@ function nome(){
     nome.innerHTML = "Tiago Santos"
     nome.appendChild(nome)
 }
+
+function fotos(){
+
+    let fotos = document.querySelector("#fotos h2")
+    fotos.innerHTML = "ALGUMAS ESPECIES"
+    fotos.appendChild(fotos)
+}
+
+function foto1(){
+
+    let foto1 = document.querySelector("#foto1")
+    foto1.setAttribute('src', 'img/jubarte.jpg');
+    foto1.appendChild(foto1)
+}
+
+function foto2(){
+
+    let foto2 = document.querySelector("#foto2")
+    foto2.setAttribute('src', 'img/cachalote.jpg');
+    foto2.appendChild(foto1)
+}
+
+function foto3(){
+
+    let foto3 = document.querySelector("#foto3")
+    foto3.setAttribute('src', 'img/branca.jpg');
+    foto3.appendChild(foto3)
+}
+
+function foto4(){
+
+    let foto4 = document.querySelector("#foto4")
+    foto4.setAttribute('src', 'img/comum.jpg');
+    foto4.appendChild(foto4)
+}
+
+function jubarte(){
+
+    let jubarte = document.querySelector("#jubarte")
+    jubarte.innerHTML = "JUBARTE"
+    jubarte.appendChild(jubarte)
+}
+
+function cachalote(){
+
+    let cachalote = document.querySelector("#cachalote")
+    cachalote.innerHTML = "CACHALOTE"
+    cachalote.appendChild(cachalote)
+}
+
+function branca(){
+
+    let branca = document.querySelector("#branca")
+    branca.innerHTML = "BRANCA"
+    branca.appendChild(branca)
+}
+
+function comum(){
+
+    let comum = document.querySelector("#comum")
+    comum.innerHTML = "COMUM"
+    comum.appendChild(comum)
+}
+
+
+
+
 
 
 
@@ -90,6 +157,17 @@ window.addEventListener("load", eu)
 window.addEventListener("load", nome)
 window.addEventListener("load", texto)
 window.addEventListener("load", footer)
+window.addEventListener("load", fotos)
+window.addEventListener("load", foto1)
+window.addEventListener("load", foto2)
+window.addEventListener("load", foto3)
+window.addEventListener("load", foto4)
+window.addEventListener("load", jubarte)
+window.addEventListener("load", cachalote)
+window.addEventListener("load", branca)
+window.addEventListener("load", comum)
+
+
 
 
 

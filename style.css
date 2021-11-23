@@ -52,6 +52,13 @@ span{
     border: none;
 }
 
+#capa button:hover{
+    cursor: pointer;
+    border: 3px solid #fc9823;
+    background-color: transparent;
+    color: white;
+}
+
 #sobre{
     width: 50%;
     margin-left: 25%;
@@ -133,9 +140,31 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }   
 
 footer h3{
     color: white;
     font-size: 25px;
+}
+
+#fotos{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#fotos div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#fotos div h3{
+    font-size: 35px;
+    margin-top: 0;
+
+}
+
+#fotos div img{
+    width: 25%;
+    margin-bottom: 30px;
 }
